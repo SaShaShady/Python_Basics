@@ -1,0 +1,7 @@
+a=(10,20,30,50,40)
+print(len(a))
+print(a.count(10))
+print(sorted(a))
+print(a.index(20))
+print(max(a))
+print(min(a))

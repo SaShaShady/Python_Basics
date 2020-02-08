@@ -1,0 +1,28 @@
+d={}
+d[100]='Sakshi'
+d[200]='Doshi'
+d[300]='Kinjal'
+print(d)
+print(d.fromkeys('Sakshi'))
+#d.pop(100)
+print(d)
+print(d.keys())
+print(d.values())
+print(d.get(100))
+print(d.items())
+print(d.popitem())
+print(d)
+f={}
+f[20]='whatever'
+(d.update(f))
+print(d)
+#d.setdefault()
+print(d.__sizeof__())
+print(d.get(200,'Sakshi'))
+print(d.get(2000,'Sakshi'))
+e=d.values()
+print(sorted(e))
+r=d.keys()
+print(sum(r))
+for r,e in d.items():
+    print(r,'=',e)
